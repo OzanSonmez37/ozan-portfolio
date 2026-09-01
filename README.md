@@ -1,37 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ozan Sönmez — Portfolio
 
-## Getting Started
+Next.js ile geliştirilen kişisel portfolyo sitesi. Deneyimlerimi, projelerimi ve yeteneklerimi tek bir sayfada, koyu temalı ve minimal bir tasarımla bir araya getiriyor.
 
-First, run the development server:
+**Repo:** [github.com/OzanSonmez37/ozan-portfolio](https://github.com/OzanSonmez37/ozan-portfolio)
+
+## Özellikler
+
+- ⚡ **Next.js 16** (App Router) + **TypeScript**
+- 🎨 **Tailwind CSS v4** ile koyu tema ve asit yeşili aksan rengi
+- 🎬 **Framer Motion** ile scroll-triggered animasyonlar
+- 📱 Uçtan uca responsive tasarım (mobil hamburger menü dahil)
+- 📩 Backend gerektirmeyen, `mailto` tabanlı iletişim formu
+- 📄 Tek tıkla CV indirme
+
+## Bölümler
+
+| Bölüm | İçerik |
+| --- | --- |
+| Hero | Giriş, kısa özet, sosyal linkler, CV indir |
+| Hakkımda | Özet, eğitim, sertifikalar |
+| Deneyim | Staj geçmişi (zaman çizelgesi) |
+| Projeler | Öne çıkan GitHub projeleri |
+| Yetenekler | Kategorilere ayrılmış teknoloji listesi |
+| İletişim | Mesaj formu + sosyal linkler |
+
+## Kullanılan Teknolojiler
+
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Framer Motion` · `Lucide Icons`
+
+## Geliştirme Ortamını Çalıştırma
 
 ```bash
+# bağımlılıkları kur
+npm install
+
+# geliştirme sunucusunu başlat
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcıdan [http://localhost:3000](http://localhost:3000) adresini aç.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Diğer komutlar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build   # production build al
+npm run start   # production build'i çalıştır
+npm run lint    # ESLint kontrolü
+```
 
-## Learn More
+## Proje Yapısı
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                # Root layout, global stiller, sayfa
+├── components/          # Nav, Hero, About, Experience, Projects, Skills, Contact...
+└── lib/
+    └── data.ts          # Tüm site içeriği (profil, deneyim, projeler, yetenekler)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+İçeriği güncellemek için çoğu durumda sadece [`src/lib/data.ts`](src/lib/data.ts) dosyasını düzenlemek yeterli.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
+Proje [Vercel](https://vercel.com) üzerinde deploy edilmeye hazırdır:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Repoyu Vercel'e bağla
+2. Framework olarak **Next.js** otomatik algılanır
+3. Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# ozan-portfolio
+## İletişim
+
+- GitHub: [@OzanSonmez37](https://github.com/OzanSonmez37)
+- LinkedIn: [Ozan Sönmez](https://www.linkedin.com/in/ozan-s%C3%B6nmez-275484358/)
