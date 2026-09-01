@@ -1,74 +1,74 @@
 # Ozan Sönmez — Portfolio
 
-Next.js ile geliştirilen kişisel portfolyo sitesi. Deneyimlerimi, projelerimi ve yeteneklerimi tek bir sayfada, koyu temalı ve minimal bir tasarımla bir araya getiriyor.
+A personal portfolio site built with Next.js. Brings together my experience, projects, and skills on a single page with a dark, minimal design.
 
 **Repo:** [github.com/OzanSonmez37/ozan-portfolio](https://github.com/OzanSonmez37/ozan-portfolio)
 
-## Özellikler
+## Features
 
 - ⚡ **Next.js 16** (App Router) + **TypeScript**
-- 🎨 **Tailwind CSS v4** ile koyu tema ve asit yeşili aksan rengi
-- 🎬 **Framer Motion** ile scroll-triggered animasyonlar
-- 📱 Uçtan uca responsive tasarım (mobil hamburger menü dahil)
-- 📩 Backend gerektirmeyen, `mailto` tabanlı iletişim formu
-- 📄 Tek tıkla CV indirme
+- 🎨 **Tailwind CSS v4** with a dark theme and an acid-green accent color
+- 🎬 **Framer Motion** scroll-triggered animations
+- 📱 Fully responsive layout, including a mobile hamburger menu
+- 📩 Backend-free, `mailto`-based contact form
+- 📄 One-click CV download
 
-## Bölümler
+## Sections
 
-| Bölüm | İçerik |
+| Section | Content |
 | --- | --- |
-| Hero | Giriş, kısa özet, sosyal linkler, CV indir |
-| Hakkımda | Özet, eğitim, sertifikalar |
-| Deneyim | Staj geçmişi (zaman çizelgesi) |
-| Projeler | Öne çıkan GitHub projeleri |
-| Yetenekler | Kategorilere ayrılmış teknoloji listesi |
-| İletişim | Mesaj formu + sosyal linkler |
+| Hero | Intro, short summary, social links, CV download |
+| About | Summary, education, certifications |
+| Experience | Internship history (timeline) |
+| Projects | Featured GitHub projects |
+| Skills | Technologies grouped by category |
+| Contact | Message form + social links |
 
-## Kullanılan Teknolojiler
+## Tech Stack
 
 `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Framer Motion` · `Lucide Icons`
 
-## Geliştirme Ortamını Çalıştırma
+## Running Locally
 
 ```bash
-# bağımlılıkları kur
+# install dependencies
 npm install
 
-# geliştirme sunucusunu başlat
+# start the dev server
 npm run dev
 ```
 
-Tarayıcıdan [http://localhost:3000](http://localhost:3000) adresini aç.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Diğer komutlar
+### Other commands
 
 ```bash
-npm run build   # production build al
-npm run start   # production build'i çalıştır
-npm run lint    # ESLint kontrolü
+npm run build   # create a production build
+npm run start   # run the production build
+npm run lint    # run ESLint
 ```
 
-## Proje Yapısı
+## Project Structure
 
 ```
 src/
-├── app/                # Root layout, global stiller, sayfa
+├── app/                # Root layout, global styles, page
 ├── components/          # Nav, Hero, About, Experience, Projects, Skills, Contact...
 └── lib/
-    └── data.ts          # Tüm site içeriği (profil, deneyim, projeler, yetenekler)
+    └── data.ts          # All site content (profile, experience, projects, skills)
 ```
 
-İçeriği güncellemek için çoğu durumda sadece [`src/lib/data.ts`](src/lib/data.ts) dosyasını düzenlemek yeterli.
+To update the content, editing [`src/lib/data.ts`](src/lib/data.ts) is usually all that's needed.
 
-## Deploy
+## Deployment
 
-Proje [Vercel](https://vercel.com) üzerinde deploy edilmeye hazırdır:
+The project is ready to deploy on [Vercel](https://vercel.com):
 
-1. Repoyu Vercel'e bağla
-2. Framework olarak **Next.js** otomatik algılanır
+1. Connect the repo to Vercel
+2. **Next.js** is auto-detected as the framework
 3. Deploy
 
-## İletişim
+## Contact
 
 - GitHub: [@OzanSonmez37](https://github.com/OzanSonmez37)
 - LinkedIn: [Ozan Sönmez](https://www.linkedin.com/in/ozan-s%C3%B6nmez-275484358/)
