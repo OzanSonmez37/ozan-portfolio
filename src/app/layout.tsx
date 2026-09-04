@@ -16,13 +16,13 @@ const sans = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Ozan Sönmez — Computer Engineering & Full-Stack Developer",
   description:
-    "Ozan Sönmez'in portfolyosu: Next.js, NestJS, React ve Flutter ile geliştirilen projeler, staj deneyimleri ve yetenekler.",
+    "Ozan Sönmez's portfolio: projects, internship experience, and skills built with Next.js, NestJS, React, and Flutter.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="tr"
+      lang="en"
       className={`${display.variable} ${sans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-fg">{children}</body>

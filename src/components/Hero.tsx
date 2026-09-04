@@ -29,7 +29,7 @@ export default function Hero() {
             custom={0}
             className="mb-4 font-mono text-sm uppercase tracking-[0.25em] text-accent"
           >
-            {profile.location} · Bilgisayar Mühendisliği
+            {profile.location} · Computer Engineering
           </motion.p>
 
           <motion.h1
@@ -39,9 +39,9 @@ export default function Hero() {
             custom={1}
             className="font-display uppercase leading-[0.9] text-[15vw] sm:text-[11vw] md:text-[7.5vw]"
           >
-            Merhaba,
+            Hi, I&apos;m
             <br />
-            ben Ozan
+            Ozan
           </motion.h1>
 
           <motion.h2
@@ -87,7 +87,7 @@ export default function Hero() {
             </a>
             <a
               href={`mailto:${profile.email}`}
-              aria-label="E-posta"
+              aria-label="Email"
               className="text-fg/70 transition-colors hover:text-accent"
             >
               <Mail size={20} />
@@ -99,7 +99,7 @@ export default function Hero() {
             className="mt-6 inline-flex items-center gap-2 rounded-full border border-fg/20 px-4 py-2 text-xs uppercase tracking-wide text-fg/80 transition-colors hover:border-accent hover:text-accent"
           >
             <Download size={14} />
-            CV İndir
+            Download CV
           </a>
         </motion.div>
       </div>
@@ -118,7 +118,7 @@ export default function Hero() {
           <span className="flex h-10 w-10 items-center justify-center rounded-full border border-border transition-colors group-hover:border-accent group-hover:text-accent">
             <ArrowDown size={16} className="animate-bounce" />
           </span>
-          Projelerimi Gör
+          See My Work
         </a>
         <p className="hidden font-mono text-xs text-muted sm:block">
           Next.js · React · NestJS · Flutter · ASP.NET

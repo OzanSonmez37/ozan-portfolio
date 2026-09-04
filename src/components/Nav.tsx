@@ -5,11 +5,11 @@ import { Download, Menu, X } from "lucide-react";
 import { profile } from "@/lib/data";
 
 const links = [
-  { href: "#about", label: "Hakkımda" },
-  { href: "#experience", label: "Deneyim" },
-  { href: "#projects", label: "Projeler" },
-  { href: "#skills", label: "Yetenekler" },
-  { href: "#contact", label: "İletişim" },
+  { href: "#about", label: "About" },
+  { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects" },
+  { href: "#skills", label: "Skills" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -58,18 +58,18 @@ export default function Nav() {
             className="inline-flex items-center gap-2 rounded-full border border-fg/20 px-5 py-2 text-sm uppercase tracking-wide transition-colors hover:border-accent hover:text-accent"
           >
             <Download size={14} />
-            CV İndir
+            Download CV
           </a>
           <a
             href="#contact"
             className="inline-block rounded-full bg-accent px-5 py-2 text-sm font-medium uppercase tracking-wide text-bg transition-transform hover:-translate-y-0.5"
           >
-            İletişime Geç
+            Get in Touch
           </a>
         </div>
 
         <button
-          aria-label="Menüyü aç"
+          aria-label="Open menu"
           className="text-fg md:hidden"
           onClick={() => setOpen((o) => !o)}
         >
@@ -99,7 +99,7 @@ export default function Nav() {
             className="mt-10 inline-flex w-fit items-center gap-2 rounded-full border border-fg/20 px-5 py-3 text-sm uppercase tracking-wide"
           >
             <Download size={16} />
-            CV İndir
+            Download CV
           </a>
         </div>
       )}

@@ -9,12 +9,12 @@ export default function Contact() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="mb-4 font-mono text-sm uppercase tracking-[0.25em] text-accent">
-            05 · İletişim
+            05 · Contact
           </p>
           <h2 className="font-display max-w-4xl text-5xl uppercase leading-[0.95] sm:text-6xl md:text-7xl">
-            Birlikte bir şeyler
+            Let&apos;s build
             <br />
-            inşa edelim.
+            something together.
           </h2>
 
           <ContactForm />
@@ -42,8 +42,8 @@ export default function Contact() {
         </Reveal>
 
         <div className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-border py-8 text-xs text-muted sm:flex-row">
-          <p>© {new Date().getFullYear()} Ozan Sönmez. Tüm hakları saklıdır.</p>
-          <p>Next.js ile tasarlandı ve geliştirildi.</p>
+          <p>© {new Date().getFullYear()} Ozan Sönmez. All rights reserved.</p>
+          <p>Designed & built with Next.js.</p>
         </div>
       </div>
     </section>

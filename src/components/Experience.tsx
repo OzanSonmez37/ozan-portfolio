@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <section id="experience" className="px-6 py-24 md:px-10 md:py-32">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading index="02" label="Deneyim" title="Nerede Çalıştım" />
+        <SectionHeading index="02" label="Experience" title="Where I've Worked" />
 
         <div className="flex flex-col">
           {experience.map((item, i) => (

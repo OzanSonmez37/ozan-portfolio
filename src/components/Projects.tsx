@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <section id="projects" className="px-6 py-24 md:px-10 md:py-32">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading index="03" label="Projeler" title="Neler Yaptım" />
+        <SectionHeading index="03" label="Projects" title="What I've Built" />
 
         <div className="grid gap-6 sm:grid-cols-2">
           {projects.map((p, i) => (
@@ -50,7 +50,7 @@ export default function Projects() {
 
                 <div className="mt-5 flex items-center gap-2 text-xs text-fg/50">
                   <GithubIcon size={14} />
-                  GitHub&apos;da görüntüle
+                  View on GitHub
                 </div>
               </a>
             </Reveal>

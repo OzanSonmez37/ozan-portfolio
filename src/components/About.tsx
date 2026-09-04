@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section id="about" className="px-6 py-24 md:px-10 md:py-32">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading index="01" label="Hakkımda" title="Ben Kimim?" />
+        <SectionHeading index="01" label="About" title="Who Is Ozan?" />
 
         <div className="grid gap-12 md:grid-cols-[1.1fr_1fr] md:gap-16">
           <Reveal delay={0.1}>
@@ -58,7 +58,7 @@ export default function About() {
 
             <div>
               <p className="mb-3 text-xs uppercase tracking-[0.2em] text-muted">
-                Sertifikalar
+                Certifications
               </p>
               <ul className="flex flex-col gap-2">
                 {certifications.map((c) => (

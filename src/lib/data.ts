@@ -2,13 +2,13 @@ export const profile = {
   name: "Ozan Sönmez",
   firstName: "Ozan",
   role: "Computer Engineering Student & Full-Stack Developer",
-  location: "İstanbul, Türkiye",
+  location: "Istanbul, Turkey",
   email: "ozansonmez373@gmail.com",
   github: "https://github.com/OzanSonmez37",
   linkedin: "https://www.linkedin.com/in/ozan-s%C3%B6nmez-275484358/",
   cvUrl: "/Ozan-Sonmez-CV.pdf",
   summary:
-    "3. sınıf bilgisayar mühendisliği öğrencisiyim. Next.js, NestJS ve ASP.NET ile uçtan uca web uygulamaları, Flutter ile mobil arayüzler geliştiriyorum. Stajlarda frontend, backend ve mobil tarafında gerçek projelerde çalıştım; şu an ekip içinde Flutter ile mobil ürün geliştirmeye devam ediyorum.",
+    "I'm a 3rd-year Computer Engineering student. I build end-to-end web apps with Next.js, NestJS, and ASP.NET, and mobile interfaces with Flutter. I've worked on real projects across frontend, backend, and mobile during my internships, and I'm currently building a mobile product with Flutter as part of a team.",
 };
 
 export const experience = [
@@ -16,44 +16,44 @@ export const experience = [
     role: "Mobile Developer Intern",
     company: "KaraLabs Yazılım",
     location: "Remote",
-    period: "Tem 2026 — Devam ediyor",
+    period: "Jul 2026 — Present",
     current: true,
     points: [
-      "Figma ile modern ve kullanıcı dostu mobil arayüz tasarımları",
-      "Flutter ile Android/iOS mobil uygulama geliştirme",
+      "Designing modern, user-friendly mobile interfaces in Figma",
+      "Building Android/iOS mobile apps with Flutter",
     ],
   },
   {
     role: "Software Developer Intern",
     company: "Software Persona",
     location: "Remote",
-    period: "Nis 2026 — May 2026",
+    period: "Apr 2026 — May 2026",
     current: false,
     points: [
-      "Veritabanı yönetimi ve SQL sorguları üzerine uygulamalı deneyim",
-      "JavaScript ile web geliştirme, Figma ile UI/UX tasarımı",
-      "Android ve iOS platformları için mobil uygulama geliştirme",
+      "Hands-on experience with database management and SQL queries",
+      "Web development with JavaScript, UI/UX design in Figma",
+      "Mobile app development for Android and iOS platforms",
     ],
   },
   {
     role: "Frontend Developer Intern",
     company: "Dijicrea",
-    location: "İstanbul — On-site",
-    period: "Eyl 2025 — Eki 2025",
+    location: "Istanbul — On-site",
+    period: "Sep 2025 — Oct 2025",
     current: false,
     points: [
-      "Bootstrap, HTML, CSS ve JavaScript ile duyarlı (responsive) web arayüzleri",
-      "UI bileşenlerinin geliştirilmesi ve tutarlı tasarım için ekip çalışması",
+      "Built responsive web interfaces with Bootstrap, HTML, CSS, and JavaScript",
+      "Developed UI components and collaborated with the team on a consistent design",
     ],
     link: { label: "uannesfrontend.dijicrea.net", href: "https://uannesfrontend.dijicrea.net/" },
   },
 ];
 
 export const education = {
-  school: "Doğuş Üniversitesi",
-  degree: "Bilgisayar Mühendisliği",
-  period: "2022 — Devam ediyor",
-  note: "3. Sınıf Öğrencisi",
+  school: "Doğuş University",
+  degree: "Computer Engineering",
+  period: "2022 — Present",
+  note: "3rd-Year Student",
 };
 
 export const certifications = [
@@ -92,7 +92,7 @@ export const projects: Project[] = [
   {
     title: "ClientFlow",
     description:
-      "Yazılım ajansları için müşteri ve proje yönetim paneli. Proje durumu takibi, bütçe izleme ve temel metriklerin görselleştirilmesi.",
+      "A client and project management panel for software agencies. Track project status, monitor budgets, and visualize key metrics.",
     tags: ["Next.js", "NestJS", "PostgreSQL", "TypeScript"],
     repo: "https://github.com/OzanSonmez37/Client-Flow",
     featured: true,
@@ -100,7 +100,7 @@ export const projects: Project[] = [
   {
     title: "Vocab Loop",
     description:
-      "Aralıklı tekrar (spaced repetition) yöntemiyle kelime öğrenme uygulaması. Kelime ekleme, programlı tekrar ve ilerleme takibi.",
+      "A vocabulary learning app based on spaced repetition. Add words, review them on a schedule, and track your progress.",
     tags: ["Next.js", "TypeScript", "Express", "PostgreSQL"],
     repo: "https://github.com/OzanSonmez37/vocab-loop",
     featured: true,
@@ -108,7 +108,7 @@ export const projects: Project[] = [
   {
     title: "Coffee Corner",
     description:
-      "Dinamik menü yönetimi ve kullanıcı dostu navigasyona sahip modern bir kafe web sitesi.",
+      "A modern café website with dynamic menu management and user-friendly navigation.",
     tags: ["Node.js", "MongoDB", "Handlebars"],
     repo: "https://github.com/OzanSonmez37/Coffee_Corner",
     featured: true,
@@ -116,21 +116,21 @@ export const projects: Project[] = [
   {
     title: "Car Selling",
     description:
-      "Kullanıcıların kayıt olup araba ilanı verebildiği, yöneticiye mesaj gönderebildiği araç satış platformu.",
+      "A car sales platform where users can register, list cars for sale, and message the administrator.",
     tags: ["ASP.NET", "SQL Server", "C#"],
     repo: "https://github.com/OzanSonmez37/Car_Selling",
   },
   {
     title: "Expenses Tracker",
     description:
-      "Günlük harcamaları kategorilere ayırma, filtreleme ve takip etme imkanı sunan modern bir gider takip uygulaması.",
+      "A modern expense tracker app for categorizing, filtering, and monitoring daily spending.",
     tags: ["React", "JavaScript"],
     repo: "https://github.com/OzanSonmez37/Expenses-Tracker",
   },
   {
     title: "Best Store MVC",
     description:
-      "Ürün listeleme, kategori yönetimi, sepet ve sipariş işlemlerine sahip ASP.NET MVC tabanlı e-ticaret uygulaması.",
+      "An ASP.NET MVC e-commerce app with product listing, category management, cart, and order handling.",
     tags: ["ASP.NET MVC", "C#"],
     repo: "https://github.com/OzanSonmez37/Best_Store_MVC",
   },
@@ -138,7 +138,7 @@ export const projects: Project[] = [
 
 export const skills = [
   {
-    category: "Diller",
+    category: "Languages",
     items: ["JavaScript", "TypeScript", "Java", "C#", "C++", "Python"],
   },
   {
@@ -150,7 +150,7 @@ export const skills = [
     items: ["Node.js", "NestJS", "Express", "ASP.NET", "PostgreSQL", "MongoDB", "SQL Server"],
   },
   {
-    category: "Mobil & Tasarım",
+    category: "Mobile & Design",
     items: ["Flutter", "Figma", "UI/UX Design"],
   },
 ];

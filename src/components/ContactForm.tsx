@@ -12,7 +12,7 @@ export default function ContactForm() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    const subject = `Portfolyo mesajı — ${name || "İsimsiz"}`;
+    const subject = `Portfolio message — ${name || "Anonymous"}`;
     const body = `${message}\n\n—\n${name}\n${email}`;
     window.location.href = `mailto:${profile.email}?subject=${encodeURIComponent(
       subject,
@@ -27,7 +27,7 @@ export default function ContactForm() {
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
           <label htmlFor="name" className="text-xs uppercase tracking-[0.15em] text-muted">
-            İsim
+            Name
           </label>
           <input
             id="name"
@@ -35,13 +35,13 @@ export default function ContactForm() {
             required
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Adın Soyadın"
+            placeholder="Your name"
             className={inputClass}
           />
         </div>
         <div className="flex flex-col gap-2">
           <label htmlFor="email" className="text-xs uppercase tracking-[0.15em] text-muted">
-            E-posta
+            Email
           </label>
           <input
             id="email"
@@ -49,7 +49,7 @@ export default function ContactForm() {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="sen@ornek.com"
+            placeholder="you@example.com"
             className={inputClass}
           />
         </div>
@@ -57,7 +57,7 @@ export default function ContactForm() {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="message" className="text-xs uppercase tracking-[0.15em] text-muted">
-          Mesaj
+          Message
         </label>
         <textarea
           id="message"
@@ -65,7 +65,7 @@ export default function ContactForm() {
           rows={5}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Ne konuda konuşmak istersin?"
+          placeholder="What would you like to talk about?"
           className={`${inputClass} resize-none`}
         />
       </div>
@@ -74,14 +74,14 @@ export default function ContactForm() {
         type="submit"
         className="group mt-2 inline-flex w-fit items-center gap-3 rounded-full bg-accent px-6 py-3 text-sm font-medium uppercase tracking-wide text-bg transition-transform hover:-translate-y-0.5"
       >
-        Mesajı Gönder
+        Send Message
         <ArrowUpRight
           size={16}
           className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
         />
       </button>
       <p className="text-xs text-muted">
-        Gönder&apos;e bastığında mail uygulaman, {profile.email} adresine hazır bir taslakla açılır.
+        Hitting send opens your mail app with a draft ready to go to {profile.email}.
       </p>
     </form>
   );
