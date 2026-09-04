@@ -2,7 +2,7 @@
 
 A personal portfolio site built with Next.js. Brings together my experience, projects, and skills on a single page with a dark, minimal design.
 
-**Repo:** [github.com/OzanSonmez37/ozan-portfolio](https://github.com/OzanSonmez37/ozan-portfolio)
+**Live Demo:** https://ozan-portfolio-phi.vercel.app/
 
 ## Features
 
