@@ -39,7 +39,7 @@ export default function Hero() {
             custom={1}
             className="font-display uppercase leading-[0.9] text-[15vw] sm:text-[11vw] md:text-[7.5vw]"
           >
-            Hi, I&apos;m
+            Hello, I&apos;m
             <br />
             Ozan
           </motion.h1>
